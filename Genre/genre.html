@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+<body>
+<meta charset="utf-8">
+<title>Жанры</title>
+<p> Нажми на кнопку чтоб определить какой жанр написать.</p>
+
+<button id="demo" onclick="myFunction()">Жми</button>
+<button value="Refresh Page" onClick="window.location.reload();">Заново</button>
+
+<script>
+let pick = Math.floor(Math.random() * 10);
+let genre = pick;
+
+
+if (genre == 0) {genre = "Trance";
+} else if (genre == 1) {genre = "DubStep";
+} else if (genre == 2) {genre = "Minimal techno";
+} else if (genre == 3) {genre = "Chill";
+} else if (genre == 4) {genre = "Electronic";
+} else if (genre == 5) {genre = "Hard style";
+} else if (genre == 6) {genre = "Tropical House";
+} else if (genre == 7) {genre = "Slap House";
+} else if (genre == 8) {genre = "Future House";
+} else if (genre == 9) {genre = "Future Bass";
+}
+
+
+//innerHTML
+//"YOU CLICKED ME!"
+
+function myFunction() {
+  document.getElementById("demo").innerHTML = genre;
+}
+</script>
+
+</body>
+</html>
+
+
+
