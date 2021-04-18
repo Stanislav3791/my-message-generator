@@ -10,6 +10,6 @@ let pikMode = mod[Math.floor(Math.random() * mod.length)];
 let pikVerb = verb[Math.floor(Math.random() * verb.length)];
 let pikUnion = union[Math.floor(Math.random() * union.length)];
 let pikWhere = where[Math.floor(Math.random() * where.length)];
-console.log(`${pikPronoun} ${pikMode} ${pikVerb} ${pikUnion} ${pikWhere}.`);
+console.log(`${pikPronoun} ${pikMode} ${pikVerb} ${pikUnion} the ${pikWhere}.`);
 };
 main();
