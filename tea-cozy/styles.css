@@ -41,4 +41,13 @@ margin-right: 7px;
 .mission-inhalt {
     background-color: black;
     text-align: center;
+   
+    
+}
+
+.mission-inhalt h2, h4 {
+    margin-top: 2px;
+    margin-bottom: 0px;
+    padding-bottom: 0;
+
 }
